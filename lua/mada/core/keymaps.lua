@@ -1,7 +1,12 @@
+--[[
+  Simple Keymap Module
+  by Mada-r
+--]]
+
+-- set mapleader (by default I use space)
 vim.g.mapleader = " "
 
 local function set(mode, bind, cmd, opts)
-    opts = opts or { noremap = true, silent = true }
     vim.keymap.set(mode, bind, cmd, opts)
 end
 
