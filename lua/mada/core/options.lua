@@ -17,6 +17,9 @@ local options = {
 
     splitright = true;
     splitbelow = true;
+
+    guifont = {"Berkeley Mono", ":h12"};
+    background = "dark";
 }
 
 for key, value in pairs(options) do
