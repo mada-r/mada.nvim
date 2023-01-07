@@ -15,7 +15,7 @@ end
 vim.cmd([[
   augroup packer_user_config
     autocmd!
-    autocmd BufWritePost plugin-init.lua source <afile> | PackerSync
+    autocmd BufWritePost plugin-setup.lua source <afile> | PackerSync
   augroup end
 ]])
 
@@ -73,6 +73,12 @@ return packer.startup(function(use)
 
     use("dcampos/nvim-snippy")
 
+    --[ Auto Pairs ]--
+    use {
+        "windwp/nvim-autopairs",
+        config = function() require("nvim-autopairs").setup {} end
+    }
+
     --[ Misc ]--
     use("folke/zen-mode.nvim")
     use({
@@ -85,6 +91,7 @@ return packer.startup(function(use)
     use("kyazdani42/nvim-tree.lua")
 
     --[ Color Schemes ]--
+    use("nyoom-engineering/oxocarbon.nvim")
     use("rebelot/kanagawa.nvim")
 
     -- Automatically set up your configuration after cloning packer.nvim
