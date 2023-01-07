@@ -1,6 +1,6 @@
 local capabilities = require("cmp_nvim_lsp").default_capabilities(vim.lsp.protocol.make_client_capabilities())
 local nvim_lsp = require("lspconfig")
-local servers = {"roblox_lsp"}
+local servers = {"roblox_lsp", "tsserver"}
 
 for _, lsp in ipairs(servers) do
 	nvim_lsp[lsp].setup({
