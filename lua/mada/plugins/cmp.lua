@@ -11,7 +11,7 @@ vim.opt.completeopt = {"menu", "menuone", "noselect"}
 cmp.setup({
 	snippet = {
 		expand = function(args)
-			require("snippy").expand_snippet(args.body)
+			require("luasnip").lsp_expand(args.body)
 		end,
 	},
 	mapping = {
@@ -31,31 +31,47 @@ cmp.setup({
 		["<CR>"] = cmp.mapping.confirm({ select = true }),
 
 		["<Tab>"] = cmp.mapping(function(fallback)
-			if cmp.visible() then
-				cmp.select_next_item()
-			elseif snippy.can_expand_or_advance() then
-				snippy.expand_or_advance()
-			elseif has_words_before() then
-				cmp.complete()
-			else
-				fallback()
-			end
+      local luasnip = require 'luasnip'
+      if cmp.visible() then
+        cmp.select_next_item()
+      elseif luasnip.expand_or_jumpable() then
+        luasnip.expand_or_jump()
+      elseif has_words_before() then
+        cmp.complete()
+      else
+        fallback()
+      end
 		end, { "i", "s" }),
 
 		["<S-Tab>"] = cmp.mapping(function(fallback)
-			if cmp.visible() then
-				cmp.select_prev_item()
-			elseif snippy.can_jump(-1) then
-				snippy.previous()
-			else
-				fallback()
-			end
+      if cmp.visible() then
+        cmp.select_prev_item()
+      elseif snippy.can_jump(-1) then
+        snippy.previous()
+      else
+        fallback()
+      end
 		end, { "i", "s" }),
 	},
 	sources = cmp.config.sources({
 		{ name = "nvim_lsp" },
-		{ name = "snippy" }, -- For snippy users.
+		{ name = "luasnip", option = { show_autosnippets = true } }, -- For snippy users.
 	}, {
 		{ name = "buffer" },
 	})
 })
+
+local luasnip = require('luasnip')
+luasnip.config.set_config {
+  history = true,
+  updateevents = "TextChanged,TextChangedI"
+}
+
+local path = vim.fn.stdpath("config") .. "/snippets/vscode/"
+
+require("luasnip/loaders/from_vscode").lazy_load({
+  paths = path
+})
+
+--require("luasnip/loaders/from_vscode").lazy_load( { paths = vim.fn.stdpath "config" .. "/snippets/vscode"  } )
+--

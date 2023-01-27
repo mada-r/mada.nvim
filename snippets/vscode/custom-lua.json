@@ -1,0 +1,57 @@
+{
+  "lreq": {
+    "prefix": "lr",
+    "body": [
+      "local ${1} = require('${1}') ---@module ${1}"
+    ],
+    "description": "local require"
+  },
+  "Carpenter Job": {
+    "description": "Carpenter Job Template",
+    "prefix": "/carpjob",
+    "body": [
+      "--[[",
+      "    File: $TM_FILENAME",
+      "    Author(s): Larry Ratley",
+      "    Created: $CURRENT_MONTH/$CURRENT_DATE/$CURRENT_YEAR @ $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND\n    ",
+      "    Description:",
+      "        No description provided.\n    ",
+      "    Documentation:",
+      "        No documentation provided.",
+      "--]]",
+      "",
+      "--[ Root ]--",
+      "local $TM_FILENAME_BASE = {}",
+      "",
+      "--[ Classes & Jobs ]--",
+      "",
+      "--[ Dependencies ]--",
+      "",
+      "--[ Roblox Services ]--",
+      "",
+      "--[ Object References ]--",
+      "",
+      "--[ Constants ]--",
+      "",
+      "--[ Variables ]--",
+      "",
+      "--[ Shorthands ]--",
+      "",
+      "--[ Internal Functions ]--",
+      "",
+      "--[ Job API ]--",
+      "",
+      "--[ Job Initializers ]--",
+      "function $TM_FILENAME_BASE:Run() ---@deprecated",
+      "    ",
+      "end",
+      "",
+      "function $TM_FILENAME_BASE:Init() ---@deprecated",
+      "    ",
+      "end",
+      "",
+      "--[ Return Job ]--",
+      "return $TM_FILENAME_BASE"
+    ]
+  }
+}

@@ -27,3 +27,4 @@ for _, plugin_file in ipairs(plugin_files) do
     print("[init] Failed to load plugin module " .. plugin_file .. ". Reason: " .. err)
   end
 end
+
