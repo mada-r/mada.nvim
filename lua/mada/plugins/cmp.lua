@@ -54,11 +54,26 @@ cmp.setup({
 		end, { "i", "s" }),
 	},
 	sources = cmp.config.sources({
-		{ name = "nvim_lsp" },
+		{ name = "nvim_lsp", keyword_length = 3 },
 		{ name = "luasnip", option = { show_autosnippets = true } }, -- For snippy users.
-	}, {
+
 		{ name = "buffer" },
-	})
+	}, {
+	}),
+	formatting = {
+		fields = {"menu", "abbr", "kind"},
+		format = function(entry, item)
+			local menu_icon = {
+				nvim_lsp = "λ",
+				luasnip = "⋗",
+				buffer = "Ω"
+			}
+
+			item.menu = menu_icon[entry.source.name]
+
+			return item
+		end
+	}
 })
 
 local luasnip = require('luasnip')
