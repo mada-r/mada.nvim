@@ -2,8 +2,8 @@ local options = {
     relativenumber = true;
     number = true;
 
-    tabstop = 2;
-    shiftwidth = 2;
+    tabstop = 4;
+    shiftwidth = 4;
     expandtab = true;
     autoindent = true;
 
