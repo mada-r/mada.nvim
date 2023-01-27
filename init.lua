@@ -21,10 +21,10 @@ require("mada.core.keymaps")
 
 local plugin_files = vim.fn.globpath(vim.fn.stdpath("config") .. "/lua/mada/plugins", "*.lua", 0, 1)
 for _, plugin_file in ipairs(plugin_files) do
-  local success, err = pcall(require, "mada.plugins." .. vim.fn.fnamemodify(plugin_file, ":t:r"))
+    local success, err = pcall(require, "mada.plugins." .. vim.fn.fnamemodify(plugin_file, ":t:r"))
 
-  if not success then
-    print("[init] Failed to load plugin module " .. plugin_file .. ". Reason: " .. err)
-  end
+    if not success then
+        print("[init] Failed to load plugin module " .. plugin_file .. ". Reason: " .. err)
+    end
 end
 
