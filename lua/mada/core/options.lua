@@ -22,6 +22,10 @@ local options = {
     background = "dark";
 }
 
+vim.cmd([[
+    let g:neovide_remember_window_size = v:true
+]])
+
 for key, value in pairs(options) do
     vim.opt[key] = value
 end
