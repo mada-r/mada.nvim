@@ -1,0 +1,1452 @@
+[19:50:47.952][info] [#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:54]: Lua Lsp startup, root: 	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server
+[19:50:47.952][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:55]: ROOT:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server
+[19:50:47.952][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:56]: LOGPATH:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/log
+[19:50:47.952][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:57]: METAPATH:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/meta
+[19:50:48.124][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[19:50:48.124][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[19:50:48.124][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[19:50:48.124][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[19:50:48.124][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.872 MB
+        # 00 : 1.872 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:50:48.155][debug][#0:script\provider\client.lua:73]: Client init	{
+    capabilities = {
+        callHierarchy = {
+            dynamicRegistration = false,
+        },
+        textDocument = {
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [01] = "",
+                            [02] = "Empty",
+                            [03] = "QuickFix",
+                            [04] = "Refactor",
+                            [05] = "RefactorExtract",
+                            [06] = "RefactorInline",
+                            [07] = "RefactorRewrite",
+                            [08] = "Source",
+                            [09] = "SourceOrganizeImports",
+                            [10] = "quickfix",
+                            [11] = "refactor",
+                            [12] = "refactor.extract",
+                            [13] = "refactor.inline",
+                            [14] = "refactor.rewrite",
+                            [15] = "source",
+                            [16] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                dynamicRegistration = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = true,
+                    deprecatedSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    labelDetailsSupport = true,
+                    preselectSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "detail",
+                            [3] = "additionalTextEdits",
+                        },
+                    },
+                    snippetSupport = true,
+                    tagSupport = {
+                        valueSet = {
+                            [1] = 1,
+                        },
+                    },
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                completionList = {
+                    itemDefaults = {
+                        [1] = "commitCharacters",
+                        [2] = "editRange",
+                        [3] = "insertTextFormat",
+                        [4] = "insertTextMode",
+                        [5] = "data",
+                    },
+                },
+                contextSupport = true,
+                dynamicRegistration = false,
+                insertTextMode = 1,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = false,
+            },
+            documentSymbol = {
+                dynamicRegistration = false,
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = false,
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+            },
+            references = {
+                dynamicRegistration = false,
+            },
+            rename = {
+                dynamicRegistration = false,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                dynamicRegistration = false,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = false,
+                willSave = false,
+                willSaveWaitUntil = false,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = false,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = false,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            symbol = {
+                dynamicRegistration = false,
+                hierarchicalWorkspaceSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                resourceOperations = {
+                    [1] = "rename",
+                    [2] = "create",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Neovim",
+        version = "0.8.2",
+    },
+    initializationOptions = {
+    },
+    processId = 23980,
+    rootPath = "C:\\Users\\larry\\Documents\\development\\galaxyunlimited\\sandbox",
+    rootUri = "file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox",
+    trace = "off",
+    workspaceFolders = {
+        [1] = {
+            name = "C:/Users/larry/Documents/development/galaxyunlimited/sandbox",
+            uri = "file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox",
+        },
+    },
+}
+[19:50:48.155][info] [#0:script\language.lua:135]: VSC language: nil
+[19:50:48.155][info] [#0:script\language.lua:136]: LS  language: en-us
+[19:50:48.155][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox
+[19:50:48.155][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/log/file_C_Users_larry_Documents_development_galaxyunlimited_sandbox.log
+[19:50:48.170][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua
+[19:50:48.170][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[19:50:48.577][debug][#0:script\provider\semantic-tokens.lua:111]: Refresh semantic tokens.
+[19:50:48.577][debug][#0:script\proto\proto.lua:131]: Method [initialized] takes [0.402]sec.
+[19:50:48.577][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [0.396]sec.
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:302]: Preload start.
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	1
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	2
+[19:50:48.577][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[19:50:48.577][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [0.397]sec.
+[19:50:48.577][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[19:50:48.577][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [0.397]sec.
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:312]: Scan files at:	C:\Users\larry\Documents\development\galaxyunlimited\sandbox
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_loader/init.lua , size = 6.357 KB
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_loader/Promise.lua , size = 62.964 KB
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/Flags.lua , size = 0.203 KB
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:315]: Found 59 files.
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:317]: Loaded 3/59 files
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/init.lua , size = 7.302 KB
+[19:50:48.577][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/Update.lua , size = 1.577 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/Tick.lua , size = 1.862 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/Run.lua , size = 0.370 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/RenderStepped.lua , size = 0.525 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/Stepped.lua , size = 0.495 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/PlayerAdded.lua , size = 0.775 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/PlayerRemoving.lua , size = 0.562 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/Initialize.lua , size = 0.366 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/_executor/DefaultCallbacks/Heartbeat.lua , size = 0.505 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/PluckTable.lua , size = 1.406 KB
+[19:50:48.592][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/Numbers.lua , size = 0.630 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/FetchUtils.lua , size = 0.388 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/FormatNumber.lua , size = 1.796 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/EasySetMulti.lua , size = 0.620 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/EasySet.lua , size = 0.821 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/DeveloperPasses/Types.lua , size = 0.187 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/DeveloperPasses/init.lua , size = 3.826 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/common/FetchSync.lua , size = 1.859 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/util/common/EasyGet.lua , size = 0.630 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/PassWatch.lua , size = 3.178 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/management/States.lua , size = 3.292 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/net/Network.lua , size = 7.443 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/management/Resources.lua , size = 1.925 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/management/Classify.lua , size = 11.240 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/compression/LuaLZW.lua , size = 4.660 KB
+[19:50:48.608][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/compression/LibDeflate.lua , size = 140.090 KB
+[19:50:48.624][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/compression/JSONCompressor.lua , size = 1.431 KB
+[19:50:48.624][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/common/Math.lua , size = 1.933 KB
+[19:50:48.624][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/animation/Animator3.lua , size = 2.382 KB
+[19:50:48.624][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/utility/Queue.lua , size = 8.211 KB
+[19:50:48.624][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/common/Promise.lua , size = 62.964 KB
+[19:50:48.624][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/common/Maid.lua , size = 3.965 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/common/Logger.lua , size = 7.374 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/animation/Animation3.lua , size = 8.469 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/net/Replicator.lua , size = 4.294 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/memory/MemoryDataQueue.lua , size = 1.283 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/MessagingHelper.lua , size = 3.362 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/memory/MemoryData.lua , size = 15.902 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/MemoryStoreHelper.lua , size = 6.187 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/MarketHelper2.lua , size = 8.929 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/InsertHelper.lua , size = 4.428 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/DataRateHelper.lua , size = 7.266 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/InfinityServer.server.lua , size = 1.110 KB
+[19:50:48.639][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/BadgeHelper.lua , size = 7.396 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/util/Alpha.lua , size = 2.705 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/util/Platform.lua , size = 1.393 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/lib/StepUtils.lua , size = 1.647 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/lib/SpringUtils.lua , size = 1.226 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/jobs/QuickDebug.lua , size = 3.122 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/lib/Spring.lua , size = 5.032 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/jobs/net/Replicator.lua , size = 2.581 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/InfinityClient.client.lua , size = 0.920 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/utility/SawSpring.lua , size = 11.664 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua , size = 0.000 KB
+[19:50:48.655][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/monitors/InputMonitor.lua , size = 4.055 KB
+[19:50:49.170][info] [#0:script\workspace\workspace.lua:317]: Loaded 59/59 files
+[19:50:49.170][info] [#0:script\workspace\workspace.lua:326]: Preload finish.
+[19:50:49.749][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	1
+[19:50:49.749][warn] [#0:script\await.lua:167]: Await step takes [0.114] sec.
+[19:50:49.764][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	2
+[19:50:49.842][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/compression/LibDeflate.lua	2
+[19:50:49.905][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/utility/Queue.lua	3
+[19:50:49.983][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/MarketHelper2.lua	2
+[19:50:49.999][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/monitors/InputMonitor.lua	2
+[19:50:50.014][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/jobs/QuickDebug.lua	1
+[19:50:50.014][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/util/Alpha.lua	1
+[19:50:50.030][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/InsertHelper.lua	2
+[19:50:50.030][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/BadgeHelper.lua	6
+[19:50:50.030][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/DataRateHelper.lua	1
+[19:50:50.030][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/MemoryStoreHelper.lua	12
+[19:50:50.045][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/server/jobs/helpers/MessagingHelper.lua	4
+[19:50:50.045][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/lib/animation/Animator3.lua	2
+[19:50:50.077][debug][#0:script\provider\diagnostic.lua:386]: 全文诊断耗时：	0.915
+[19:50:50.561][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	2
+[19:50:50.670][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	2
+[19:50:50.795][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	2
+[19:50:51.405][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	2
+[19:50:51.545][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	3
+[19:50:51.936][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	3
+[19:50:52.092][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	6
+[19:50:53.217][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	1.023
+[19:51:48.733][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 52.603 MB
+        # 00 : 45.135 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     28
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      28
+    --------------- Cache ---------------
+        Total: 8
+        Dead:  7
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:52:48.249][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 53.001 MB
+        # 00 : 45.534 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     28
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      28
+    --------------- Cache ---------------
+        Total: 8
+        Dead:  7
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:53:14.717][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/common/Classify3.lua
+[19:53:15.561][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[19:53:17.592][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0010000000000048
+[19:53:19.420][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/shared/classes/common/Classify3.lua
+[19:53:41.545][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/Documents/development/galaxyunlimited/sandbox/src/client/classes/frontend/navigation/NavbarButton.lua	5
+[19:53:41.858][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[19:53:48.936][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 52.366 MB
+        # 00 : 44.899 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:54:48.561][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 52.763 MB
+        # 00 : 45.296 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:55:48.186][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 53.161 MB
+        # 00 : 45.693 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:56:48.780][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 53.557 MB
+        # 00 : 46.090 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:57:48.342][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 53.953 MB
+        # 00 : 46.486 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:58:48.936][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 54.351 MB
+        # 00 : 46.884 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[19:59:48.530][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 37.836 MB
+        # 00 : 30.368 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:00:48.124][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 38.234 MB
+        # 00 : 30.767 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:01:48.733][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 38.631 MB
+        # 00 : 31.163 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:02:48.342][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 39.028 MB
+        # 00 : 31.561 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:03:48.905][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 39.425 MB
+        # 00 : 31.957 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:04:48.483][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 39.821 MB
+        # 00 : 32.353 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:05:48.124][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 40.219 MB
+        # 00 : 32.751 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:06:48.717][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 40.615 MB
+        # 00 : 33.147 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:07:48.358][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 41.013 MB
+        # 00 : 33.545 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:08:47.983][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 41.409 MB
+        # 00 : 33.941 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:09:48.608][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 41.805 MB
+        # 00 : 34.338 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:10:48.202][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 42.203 MB
+        # 00 : 34.736 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:11:48.827][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 42.599 MB
+        # 00 : 35.132 MB
+        # 01 : 1.873 MB
+        # 02 : 1.995 MB
+        # 03 : 1.800 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[20:12:20.952][info] [#0:script\provider\provider.lua:169]: Server shutdown.
+[20:12:20.967][info] [#0:script\provider\provider.lua:164]: Server exited.

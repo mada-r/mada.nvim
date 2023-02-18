@@ -1,0 +1,1556 @@
+[16:13:49.831][info] [#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:54]: Lua Lsp startup, root: 	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server
+[16:13:49.831][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:55]: ROOT:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server
+[16:13:49.831][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:56]: LOGPATH:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/log
+[16:13:49.831][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:57]: METAPATH:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/meta
+[16:13:49.862][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[16:13:49.862][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[16:13:49.862][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[16:13:49.862][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[16:13:49.862][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.872 MB
+        # 00 : 1.872 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:13:49.878][debug][#0:script\provider\client.lua:73]: Client init	{
+    capabilities = {
+        callHierarchy = {
+            dynamicRegistration = false,
+        },
+        textDocument = {
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [01] = "",
+                            [02] = "Empty",
+                            [03] = "QuickFix",
+                            [04] = "Refactor",
+                            [05] = "RefactorExtract",
+                            [06] = "RefactorInline",
+                            [07] = "RefactorRewrite",
+                            [08] = "Source",
+                            [09] = "SourceOrganizeImports",
+                            [10] = "quickfix",
+                            [11] = "refactor",
+                            [12] = "refactor.extract",
+                            [13] = "refactor.inline",
+                            [14] = "refactor.rewrite",
+                            [15] = "source",
+                            [16] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                dynamicRegistration = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = true,
+                    deprecatedSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    labelDetailsSupport = true,
+                    preselectSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "detail",
+                            [3] = "additionalTextEdits",
+                        },
+                    },
+                    snippetSupport = true,
+                    tagSupport = {
+                        valueSet = {
+                            [1] = 1,
+                        },
+                    },
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                completionList = {
+                    itemDefaults = {
+                        [1] = "commitCharacters",
+                        [2] = "editRange",
+                        [3] = "insertTextFormat",
+                        [4] = "insertTextMode",
+                        [5] = "data",
+                    },
+                },
+                contextSupport = true,
+                dynamicRegistration = false,
+                insertTextMode = 1,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = false,
+            },
+            documentSymbol = {
+                dynamicRegistration = false,
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = false,
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+            },
+            references = {
+                dynamicRegistration = false,
+            },
+            rename = {
+                dynamicRegistration = false,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                dynamicRegistration = false,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = false,
+                willSave = false,
+                willSaveWaitUntil = false,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = false,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = false,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            symbol = {
+                dynamicRegistration = false,
+                hierarchicalWorkspaceSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                resourceOperations = {
+                    [1] = "rename",
+                    [2] = "create",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Neovim",
+        version = "0.8.2",
+    },
+    initializationOptions = {
+    },
+    processId = 13584,
+    rootPath = "C:\\Users\\larry\\Documents\\development\\sawhorse\\WhiteScarf",
+    rootUri = "file:///C:/Users/larry/Documents/development/sawhorse/WhiteScarf",
+    trace = "off",
+    workspaceFolders = {
+        [1] = {
+            name = "C:/Users/larry/Documents/development/sawhorse/WhiteScarf",
+            uri = "file:///C:/Users/larry/Documents/development/sawhorse/WhiteScarf",
+        },
+    },
+}
+[16:13:49.878][info] [#0:script\language.lua:135]: VSC language: nil
+[16:13:49.878][info] [#0:script\language.lua:136]: LS  language: en-us
+[16:13:49.878][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/larry/Documents/development/sawhorse/WhiteScarf
+[16:13:49.878][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/log/file_C_Users_larry_Documents_development_sawhorse_WhiteScarf.log
+[16:13:49.893][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_loader/Promise.lua
+[16:13:49.893][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[16:13:50.440][debug][#0:script\provider\semantic-tokens.lua:111]: Refresh semantic tokens.
+[16:13:50.440][debug][#0:script\proto\proto.lua:131]: Method [initialized] takes [0.539]sec.
+[16:13:50.440][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [0.537]sec.
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:302]: Preload start.
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	1
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	2
+[16:13:50.440][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[16:13:50.440][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [0.539]sec.
+[16:13:50.440][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[16:13:50.440][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [0.539]sec.
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	luac.out
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.src.rock
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.zip
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.tar.gz
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.o
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.os
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.ko
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.obj
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.elf
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.gch
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.pch
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.lib
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.a
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.la
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.lo
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.def
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.exp
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.dll
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.so
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.so.*
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.dylib
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.exe
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.out
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.app
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.i*86
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.x86_64
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	*.hex
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:110]: Ignore by .gitignore:	.DS_Store
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:312]: Scan files at:	C:\Users\larry\Documents\development\sawhorse\WhiteScarf
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_loader/init.lua , size = 6.357 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/init.lua , size = 7.271 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_loader/Promise.lua , size = 62.992 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/Flags.lua , size = 0.202 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/Update.lua , size = 1.577 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/Tick.lua , size = 1.862 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/Stepped.lua , size = 0.495 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/Run.lua , size = 0.370 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/RenderStepped.lua , size = 0.525 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/PlayerRemoving.lua , size = 0.562 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/PlayerAdded.lua , size = 0.775 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/Initialize.lua , size = 0.366 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_executor/DefaultCallbacks/Heartbeat.lua , size = 0.505 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/vendor/RateLimiter.lua , size = 3.418 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/vendor/ReplicaController.lua , size = 39.762 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/vendor/MadworkScriptSignal.lua , size = 6.557 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/vendor/MadworkMaid.lua , size = 2.533 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/Zone.lua , size = 5.345 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/PluckTable.lua , size = 1.406 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/PlayerBoundsTracker.lua , size = 3.531 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/PathUtils.lua , size = 1.648 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/ParseOutfit.lua , size = 1.242 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/Numbers.lua , size = 0.630 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/FormatNumber.lua , size = 1.847 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/FetchUtils.lua , size = 0.388 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/FetchSync.lua , size = 0.457 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/EasySetMulti.lua , size = 0.620 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/EasySet.lua , size = 0.821 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/EasyOutput.lua , size = 1.224 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/EasyGet.lua , size = 0.204 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/DeveloperPasses/Types.lua , size = 0.187 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/DeveloperPasses/init.lua , size = 3.826 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/DeepCopy.lua , size = 0.764 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/debug/Draw.lua , size = 17.660 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/CreateModelBounds.lua , size = 2.195 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/ColorMath.lua , size = 2.895 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/Collector.lua , size = 0.633 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/ColorHex.lua , size = 0.637 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/CenterWeld.lua , size = 0.951 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/BasicChecksum.lua , size = 0.247 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Tween/NumberSequence.lua , size = 2.421 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Tween/number.lua , size = 1.860 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Tween/init.lua , size = 4.590 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Tween/CFrame.lua , size = 3.741 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/TemplateProvider.lua , size = 5.360 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/String.lua , size = 2.492 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/States.lua , size = 2.919 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/SpringCity/Spring.lua , size = 10.052 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/SpringCity/init.lua , size = 9.702 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Sound.lua , size = 2.444 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/signal.lua , size = 3.235 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Resources.lua , size = 2.342 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/PromiseGet.lua , size = 1.149 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/PassWatch.lua , size = 3.178 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Outfit.lua , size = 2.618 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Network.lua , size = 7.514 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Promise.lua , size = 62.992 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Math.lua , size = 1.933 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Maid.lua , size = 3.994 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/HashLib/HashLib.spec.lua , size = 1.493 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/HashLib/init.lua , size = 54.610 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/HashLib/Base64.lua , size = 3.010 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Globals.lua , size = 3.144 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Get.lua , size = 1.484 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/GenericScreenGuiProvider.lua , size = 2.723 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/FunctionUtils.lua , size = 0.329 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/FSpring.lua , size = 0.877 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/FCMaid.lua , size = 0.950 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Compressor.lua , size = 2.704 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/compression/LuaLZW.lua , size = 4.660 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/compression/JSONCompressor.lua , size = 1.431 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Classify3.lua , size = 9.951 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Classify.lua , size = 11.457 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/ButtonHighlightModel.lua , size = 5.917 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/BasicPane.lua , size = 1.514 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/BaseObject.lua , size = 0.957 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/compression/LibDeflate.lua , size = 140.090 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/AnimNation/Spring.lua , size = 14.524 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Animator2.lua , size = 7.590 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/Animation.lua , size = 5.309 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/animation/Animator3.lua , size = 2.404 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/studio/GalleryInstance.lua , size = 9.797 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/Scheduler.lua , size = 13.658 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/LevelTranslator.lua , size = 6.498 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/CrossDebugger.lua , size = 3.995 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/AnimNation/init.lua , size = 26.319 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/Console.lua , size = 4.042 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/Compiler.lua , size = 8.265 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/RigDefaults.lua , size = 0.253 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/init.lua , size = 5.691 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/TemplateFunc.lua , size = 0.709 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/ValidateRig.lua , size = 1.150 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetSkinTone.lua , size = 2.486 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetRigAnchored.lua , size = 0.982 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetLipColor.lua , size = 1.020 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetHair.lua , size = 1.865 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetEyeColor.lua , size = 1.501 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetBrowShape.lua , size = 1.608 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetBrowColor.lua , size = 1.025 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/SetAvatarScale.lua , size = 1.416 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/RenderNametag.lua , size = 1.660 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/RemoveNametag.lua , size = 0.885 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/RemoveAllAccessories.lua , size = 0.602 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/RemoveAccessory.lua , size = 0.853 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/GetAccessory.lua , size = 0.766 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/EnableAnimation.lua , size = 1.370 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/ConstructHead.lua , size = 2.588 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/ConstructRig.lua , size = 7.431 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/ApplyPose.lua , size = 1.727 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/ApplyBlush.lua , size = 2.807 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/ApplyEyeShadow.lua , size = 2.913 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/ApplyAccessoryOptions.lua , size = 2.700 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/shared/AddAccessories.lua , size = 1.759 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/server/AddAccessory.lua , size = 2.669 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/client/ConstructLocalHead.lua , size = 2.106 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/client/AddAccessory.lua , size = 2.733 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/AB2Types.lua , size = 3.248 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder.lua , size = 22.310 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/world/AtmosphereConfig.lua , size = 2.148 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/avatar/AvatarBuilder2/functions/client/ConstructLocalRig.lua , size = 1.265 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/unlocks/Textures.lua , size = 1.216 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/unlocks/Poses.lua , size = 0.201 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/unlocks/Makeup.lua , size = 1.170 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/unlocks/BackgroundUnlocks.lua , size = 0.015 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/UGCItems.lua , size = 7.611 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/Themeing.lua , size = 1.189 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/Strings.lua , size = 1.631 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/Sounds.lua , size = 6.746 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/references/ConsoleIcons.lua , size = 0.762 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/market/KKAccessories.lua , size = 0.103 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/market/DeveloperProducts.lua , size = 0.863 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/Leveling.lua , size = 0.892 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/InventoryItems.lua , size = 0.838 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/GalleryItems.lua , size = 4.872 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/Gallery/Backgrounds.lua , size = 25.350 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/data/DataSchema.lua , size = 2.641 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/CuratorTagImport.lua , size = 2.030 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/avatar/SkinTones.lua , size = 4.200 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/avatar/Makeup.lua , size = 0.694 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/avatar/Heads.lua , size = 0.042 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/avatar/Eyes.lua , size = 0.262 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/avatar/EyeBrows.lua , size = 0.398 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/avatar/BodyCatalogData.lua , size = 0.330 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/config/Animations.lua , size = 2.240 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/classes/Task.lua , size = 10.371 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/classes/StepLoader.lua , size = 3.455 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/classes/RateLimiter.lua , size = 4.408 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/classes/Mutex.lua , size = 1.799 KB
+[16:13:50.440][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/classes/Logger.lua , size = 7.413 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/classes/Animation3.lua , size = 8.469 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/vendor/RateLimiter.lua , size = 3.418 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/vendor/ReplicaService.lua , size = 39.389 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/vendor/ProfileService.lua , size = 85.941 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/util/IsInBounds.lua , size = 1.107 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/util/GetRankInGroup.lua , size = 0.212 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/photographer/PhotographerAssetUtilities.lua , size = 5.002 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Weekly/weekly_4.lua , size = 0.500 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Weekly/weekly_3.lua , size = 0.505 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Weekly/weekly_2.lua , size = 0.524 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Weekly/weekly_1.lua , size = 0.511 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Tutorial/tutorial_themedrunway.lua , size = 0.703 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Tutorial/tutorial_runway.lua , size = 0.682 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Tutorial/TutorialRunwayLike.lua , size = 0.697 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Tutorial/TutorialPhotographer.lua , size = 0.751 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Tutorial/TutorialPublish.lua , size = 0.708 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone20Likes.lua , size = 0.702 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone1MCoins.lua , size = 0.574 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone1KCoins.lua , size = 0.562 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone10Looks.lua , size = 0.714 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone10KCoins.lua , size = 0.567 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone100Looks.lua , size = 0.719 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone100Likes.lua , size = 0.707 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Milestone/Milestone100KCoins.lua , size = 0.572 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Wednesday/daily_wednesday_2.lua , size = 0.527 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Wednesday/daily_wednesday_1.lua , size = 0.538 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Tuesday/daily_tuesday_1.lua , size = 0.537 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Thursday/daily_thursday_1.lua , size = 0.676 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Sunday/daily_sunday_2.lua , size = 0.539 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Sunday/daily_sunday_1.lua , size = 0.556 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Saturday/daily_saturday_1.lua , size = 0.538 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Monday/DailyMonday1.lua , size = 0.513 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/lib/quests/Daily/Friday/daily_friday_1.lua , size = 0.515 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/world/TimeCycle.lua , size = 3.429 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/world/ThemeRotation.lua , size = 2.789 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/world/KarliePickCubes.lua , size = 2.744 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/UnlockListeners.lua , size = 3.130 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/utilities/PresetParser.lua , size = 3.500 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/utilities/GalleryPlaques.lua , size = 5.205 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/StudioServer.lua , size = 8.918 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/services/StudioInviteService.lua , size = 2.752 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/network/StudioRoles.lua , size = 7.351 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/network/StudioGallery.lua , size = 6.145 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/network/StudioFTUX.lua , size = 2.020 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/network/StudioCore.lua , size = 3.936 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/network/StudioCoop.lua , size = 1.954 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/runway2/RunwayQueue2.lua , size = 7.178 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/network/StudioAvatar.lua , size = 4.553 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/quests/QuestReplicationService.lua , size = 5.472 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/quests/QuestHandler.lua , size = 24.839 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/quests/catalog/Tutorial.lua , size = 0.419 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/quests/catalog/Tutorial/Introduction.lua , size = 0.425 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/quests/catalog/init.lua , size = 0.010 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/quests/catalog/Daily.lua , size = 0.012 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/PhotoboothServer/PhotoboothSession.lua , size = 5.055 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/PhotoboothServer/init.lua , size = 6.470 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/net/Replicator.lua , size = 4.321 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/memory/NewsHandler.lua , size = 4.795 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/memory/LikeHandler.lua , size = 6.544 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/memory/FollowersHandler.lua , size = 4.122 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/memory/BlockHandler.lua , size = 3.860 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/market/Products.lua , size = 2.401 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Leaderboards.lua , size = 4.428 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/UnlockHelper.lua , size = 5.461 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MessagingHelper.lua , size = 3.784 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryStoreHelper.lua , size = 6.185 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/init.lua , size = 6.336 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/functions/UpdateMap.lua , size = 1.163 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/functions/SetMap.lua , size = 0.928 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/functions/RemoveQueue.lua , size = 0.622 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/functions/RemoveMap.lua , size = 0.581 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/functions/ReadQueue.lua , size = 1.640 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/functions/GetMap.lua , size = 0.640 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryHelper/functions/AddQueue.lua , size = 1.090 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MarketHelper2.lua , size = 9.936 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MarketHelper.lua , size = 8.795 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/InsertHelper.lua , size = 5.610 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/GlobalData.lua , size = 11.388 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/DataRateHelper.lua , size = 7.265 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/BadgeHelper.lua , size = 7.396 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/FeedbackService.lua , size = 3.119 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/developer/DebugEvents.lua , size = 2.009 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/debug/AvatarBuilder2ServerTest.lua , size = 2.146 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/datastore/StudioHandler.lua , size = 12.551 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/datastore/ShopHandler.lua , size = 4.571 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/datastore/OrderedLooks.lua , size = 4.892 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/datastore/FirstJoinHandler.lua , size = 0.921 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/datastore/EconomyHandler.lua , size = 4.042 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/init.lua , size = 4.116 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Unlocks.lua , size = 2.349 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Quests.lua , size = 3.788 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/LookBooks.lua , size = 4.579 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Inventory.lua , size = 3.223 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/FirstJoin.lua , size = 2.038 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Experience.lua , size = 1.452 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Economy.lua , size = 2.468 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Customization.lua , size = 5.310 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/ConveyorService.lua , size = 1.486 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/CuratorService2.lua , size = 19.998 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarService2.lua , size = 13.861 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/TemplateAction.lua , size = 0.631 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/init.lua , size = 4.074 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateSkinTone.lua , size = 0.710 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateLipColor.lua , size = 0.655 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateHead.lua , size = 0.480 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateHair.lua , size = 0.712 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateEyeShadow.lua , size = 0.649 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateEyeColor.lua , size = 0.663 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateBrowColor.lua , size = 0.674 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateBrowShape.lua , size = 0.638 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateBody.lua , size = 0.489 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UpdateBlush.lua , size = 0.613 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/UnequipAccessory.lua , size = 0.526 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/StripAccessories.lua , size = 0.681 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/SaveOutfit.lua , size = 0.362 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/OverwriteLook.lua , size = 0.288 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/EquipAccessory.lua , size = 0.874 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/ClearMakeup.lua , size = 0.593 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/functions/ApplyOutfit.lua , size = 0.815 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/events/RequestRespawn.lua , size = 0.405 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes2/events/DoFirstSpawn.lua , size = 0.481 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/avatar/AvatarRemotes.lua , size = 9.078 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/AsyncServiceHelper.lua , size = 8.278 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/InfinityServer.server.lua , size = 1.110 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/config/data/Scopes.lua , size = 0.389 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/classes/Studio2.lua , size = 15.022 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/classes/Model.lua , size = 3.216 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/classes/Photographer.lua , size = 10.829 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/classes/Look.lua , size = 0.195 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/classes/Avatar2.lua , size = 7.169 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/first/SawhorseIntro22/OnIntroComplete.lua , size = 0.274 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/first/SawhorseIntro22/Logger.lua , size = 7.090 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/first/SawhorseIntro22/Classify.lua , size = 11.437 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/first/SawhorseIntro22/init.client.lua , size = 4.876 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/first/SawhorseIntro22/Animator3.lua , size = 2.301 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/first/SawhorseIntro22/Animation3.lua , size = 8.572 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/util/ViewportModel.lua , size = 5.849 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/util/PlayerGuiUtils.lua , size = 0.382 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/util/Platform.lua , size = 1.461 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/util/GetModelBounds.lua , size = 1.404 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/util/Alpha.lua , size = 2.705 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/lib/StepUtils.lua , size = 1.708 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/lib/SpringUtils.lua , size = 1.277 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/lib/Spring.lua , size = 5.032 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/lib/AccelTween.lua , size = 3.567 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/world/Sound.lua , size = 6.947 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/world/SmallElevators.lua , size = 3.467 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/world/NightLighting.lua , size = 3.106 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/world/NametagClient.lua , size = 1.601 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/world/MannequinCleanup.lua , size = 0.835 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/world/Elevators.lua , size = 4.509 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/world/Atmosphere.lua , size = 2.760 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/viewmodel/ViewmodelControls.lua , size = 16.802 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/viewmodel/SubmodalEffects.lua , size = 2.733 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/viewmodel/StudioBottomBar.lua , size = 3.717 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/viewmodel/ModalEffects.lua , size = 4.788 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/viewmodel/AsyncToast2.lua , size = 3.747 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/ViewmodelFTUX/ViewmodelFTUX.lua , size = 2.648 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/ViewmodelFTUX/ViewmodelControlsFTUX.lua , size = 3.782 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/StudioFTUX.lua , size = 4.652 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/Guide.lua , size = 5.010 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/FTUXSequence.lua , size = 10.377 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/ControlHelper/PhotoboothControls.lua , size = 1.526 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/ControlHelper/init.lua , size = 5.365 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/user/UserJourneyWelcome.lua , size = 2.620 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/topbar/Topbar.lua , size = 2.801 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/StudioPhotoshoot.lua , size = 5.847 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/subpages/StudioMakeupPage3.lua , size = 14.675 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/subpages/StudioLipPage2.lua , size = 7.737 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/subpages/StudioHeadPage2.lua , size = 5.117 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/subpages/StudioHairPage2.lua , size = 6.170 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/subpages/StudioEyePage2.lua , size = 4.696 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/subpages/StudioBrowPage2.lua , size = 8.538 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/subpages/StudioBodyPage2.lua , size = 9.722 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/StudioInventory2.lua , size = 5.713 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/pages/StudioInventoryOutfit.lua , size = 9.201 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/pages/StudioInventoryClothing.lua , size = 13.506 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioinventory/pages/StudioInventoryAvatar.lua , size = 8.963 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioflow/StylistWelcome.lua , size = 4.776 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioflow/StudioWelcome.lua , size = 5.264 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioflow/StudioPublishRunwaySelector.lua , size = 5.341 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioflow/StudioPublishFlow.lua , size = 8.910 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studioflow/GlamWelcome.lua , size = 4.721 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/StudioMakeupPage.lua , size = 13.456 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/StudioLipPage.lua , size = 7.537 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/StudioHeadPage.lua , size = 5.667 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/StudioHairPage.lua , size = 11.140 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/StudioEyePage.lua , size = 4.831 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/StudioBrowPage.lua , size = 9.708 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/StudioBodyPage.lua , size = 8.595 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/PosePage.lua , size = 5.973 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/StudioInventoryPage3.lua , size = 23.008 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/StudioInventoryPage2.lua , size = 6.947 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/StudioAvatar.lua , size = 10.325 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Studio2.lua , size = 5.983 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/RoleProgression.lua , size = 5.650 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Pages/StudioStylist.lua , size = 13.209 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Pages/StudioOutfit.lua , size = 10.196 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Pages/StudioModel.lua , size = 8.136 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio/StudioInvitePrompt.lua , size = 0.635 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio/StudioInviteModal.lua , size = 6.074 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio/StudioInvite.lua , size = 3.161 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio/StudioColorPicker.lua , size = 6.472 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ShopButtonPopup.lua , size = 1.714 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ScreenGuiProvider.lua , size = 0.352 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ScaleMonitor.lua , size = 0.984 KB
+[16:13:50.456][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/runway/VotingPopup.lua , size = 7.768 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/runway/sounds/WesternSounds.lua , size = 3.957 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/runway/sounds/MiamiSounds.lua , size = 3.937 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/runway/sounds/CyberpunkSounds.lua , size = 2.341 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/runway/RunwaySelector.lua , size = 7.110 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/quests/Quests.lua , size = 4.813 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/quests/pages/TutorialQuestPage.lua , size = 5.899 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/quests/pages/TimedQuestPage.lua , size = 7.163 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/quests/pages/MilestoneQuestPage.lua , size = 5.880 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/PogScale.lua , size = 2.582 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/PlatformElements.lua , size = 1.572 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/photographer2/Photographer2.lua , size = 7.736 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/photographer2/pages/PhotographerPresetPage.lua , size = 6.164 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/photographer2/pages/PhotographerObjectPage.lua , size = 6.199 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/photographer2/pages/PhotographerLightingPage.lua , size = 5.500 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/photographer2/pages/PhotographerBackgroundPage.lua , size = 5.633 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/photographer2/pages/PhotographerAllPage.lua , size = 5.233 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/PhotoboothSessionService.lua , size = 7.842 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/lookbook/subpages/LookBookNewsPage.lua , size = 9.954 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/lookbook/subpages/LookBookLooksPage.lua , size = 5.050 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/lookbook/subpages/LookBookLikedPage.lua , size = 4.235 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/lookbook/subpages/LookBookFollowingPage.lua , size = 4.494 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/lookbook/LookBook2.lua , size = 13.025 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/LayoutSizer.lua , size = 3.430 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Shop/init.lua , size = 3.525 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Shop/FullCatalogPage.lua , size = 10.496 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/InventoryCache.lua , size = 4.988 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyOutfits.lua , size = 6.574 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyClothing.lua , size = 7.770 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/subpages/AvatarMakeup.lua , size = 13.963 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/subpages/AvatarLips.lua , size = 7.525 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/subpages/AvatarHead.lua , size = 5.854 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/subpages/AvatarHair.lua , size = 5.804 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/subpages/AvatarEyes.lua , size = 4.948 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/subpages/AvatarBrow.lua , size = 8.806 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/subpages/AvatarBody.lua , size = 11.023 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/pages/MyAvatar/init.lua , size = 4.598 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/Customizer/init.lua , size = 12.463 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/CoinProductModal.lua , size = 3.601 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/ClothingOrder/ClothingOrderPage.lua , size = 17.476 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/ClothingOrder/ClothingOrderItem.lua , size = 6.267 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/klossette/ClothingOrder/ClothingOrderControls.lua , size = 8.814 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/InformationPrompts.lua , size = 5.527 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/GuiTemplates.lua , size = 0.298 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/fullscreen/WorldMap.lua , size = 10.300 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/fullscreen/FullscreenLoader.lua , size = 3.722 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/feedback/FeedbackPrompt.lua , size = 5.738 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/curator/CuratorModal.lua , size = 8.443 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/curator/CuratorButtons.lua , size = 2.836 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/curator/CatalogModal.lua , size = 19.962 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/CoreGuiState.lua , size = 0.796 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/coop2/CoopUserLabel.lua , size = 4.169 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/coop2/Coop2.lua , size = 5.315 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/AsyncToasts.lua , size = 1.923 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/TryOnService.lua , size = 4.628 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/StudioUtils.lua , size = 0.984 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/StudioStateCleaner.lua , size = 0.759 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/Sprint.lua , size = 2.003 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/runway2/ClientRunwayLoader2.lua , size = 4.683 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/runway2/ClientRunwayHandler2.lua , size = 8.195 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/RunningSounds.lua , size = 6.651 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/util/RoleStateHandler.lua , size = 1.762 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/util/RoleProximityPrompts.lua , size = 1.758 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/util/Coop.lua , size = 1.756 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/stylist/init.lua , size = 0.967 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/tools/VerticalDragger.lua , size = 8.540 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/tools/Scale.lua , size = 7.787 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/tools/Rotater.lua , size = 6.336 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/tools/Material.lua , size = 6.140 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/tools/Dragger.lua , size = 8.115 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/tools/Delete.lua , size = 4.147 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/Selection.lua , size = 8.381 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/init.lua , size = 6.143 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/Camera.lua , size = 11.369 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/photographer/Bounds.lua , size = 1.680 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/model/init.lua , size = 1.417 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/init.lua , size = 6.329 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/QuickDebug.lua , size = 3.418 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/QuestCompanion.lua , size = 7.233 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ProximityPromptSounds.lua , size = 0.660 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/prompts/StudioPrompts.lua , size = 2.290 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/prompts/SessionEnded.lua , size = 3.940 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/PhotoboothClient/PhotoboothAnimationHandler.lua , size = 6.560 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/PhotoboothClient/init.lua , size = 4.723 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/PalaceVotingBar.lua , size = 3.123 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/net/Replicator.lua , size = 2.581 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/leaderboards/RenderAvatars.lua , size = 3.125 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientUnlockHelper.lua , size = 1.046 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientStudioHelper.lua , size = 4.308 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientMarketHelper.lua , size = 3.784 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientLookHelper.lua , size = 3.396 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientInsertHelper.lua , size = 1.646 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientCuratorHelper.lua , size = 5.895 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/FreezeInput.lua , size = 0.831 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/debug/StateDebugger.lua , size = 3.027 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/debug/DebugTools.lua , size = 2.098 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/debug/ContentProviderStats.lua , size = 1.281 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/debug/CatalogImport/init.lua , size = 5.825 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/data/LocalProfile.lua , size = 1.039 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/avatar/RigUpdateListener.lua , size = 0.999 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/InfinityClient.client.lua , size = 0.920 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/utility/SawSpring.lua , size = 12.220 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/utility/ProximityAction.lua , size = 2.944 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/sound/VolumetricSound.lua , size = 4.391 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/monitors/interface/editor/ControlButton.lua , size = 2.282 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/monitors/InputMonitor.lua , size = 4.194 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/interface/effects/Hover.lua , size = 1.940 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/interface/effects/Border.lua , size = 2.191 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/interface/editor/MaterialButton.lua , size = 4.696 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/viewmodel/SideButton2.lua , size = 4.854 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/viewmodel/CoinControl.lua , size = 8.009 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/viewmodel/BottomButton2.lua , size = 7.852 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/toasts/InfoToast.lua , size = 5.511 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studioflow/ItemInformationLabel.lua , size = 0.000 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studioflow/GuidedFlowButton.lua , size = 3.381 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studio/StudioInviteUserLabel.lua , size = 5.074 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studio/RoleInfo.lua , size = 2.914 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studio/MaterialGridButton2.lua , size = 3.749 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studio/MaterialGridButton.lua , size = 3.720 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studio/inventory/StudioInventoryTile.lua , size = 12.982 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studio/inventory/StudioInventoryTab.lua , size = 3.169 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/studio/inventory/StudioInventoryPage.lua , size = 10.223 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/sidebar/SidebarButton.lua , size = 8.180 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/runway/RunwayTile2.lua , size = 6.878 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/runway/RunwayTile.lua , size = 4.016 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/runway/LikeBarButton.lua , size = 7.906 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/quests/QuestLabel.lua , size = 4.680 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/quests/QuestCategoryButton.lua , size = 2.519 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/prompts/PublishPrompt.lua , size = 4.461 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/prompts/ItemCustomizePrompt.lua , size = 11.080 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photographer2/PhotographerTab.lua , size = 4.441 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photographer2/PhotographerTile.lua , size = 11.662 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PoseSelection/PoseSelectionPane.story.lua , size = 0.830 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PoseSelection/PoseSelectionPane.lua , size = 4.834 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PoseSelection/PoseSelectionConstants.lua , size = 0.705 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PoseSelection/PhotoboothPose.lua , size = 4.292 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PhotoboothPlayers.lua , size = 4.784 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PhotoboothPlayerEntry.lua , size = 4.573 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PhotoboothManager.story.lua , size = 1.525 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PhotoboothManager.lua , size = 8.454 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PhotoboothCountdown.lua , size = 3.796 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/PhotoboothButton.lua , size = 5.607 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/GroupSessions/GroupSessionsList.story.lua , size = 0.916 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/GroupSessions/GroupSessionsList.lua , size = 9.878 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/photobooth/GroupSessions/GroupSessionEntry.lua , size = 5.933 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/map/RunwayButton.lua , size = 1.316 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/map/PeopleTeleport.lua , size = 2.443 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/map/MapTeleporting.lua , size = 2.857 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/map/MapAuxillaryButton.lua , size = 1.149 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/map/GalleryTeleport.lua , size = 3.368 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/NewsItem.lua , size = 5.956 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookTile.lua , size = 11.372 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookIcon.lua , size = 4.935 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookItem.lua , size = 5.229 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookDetailModal.lua , size = 17.374 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookDetailButton.lua , size = 5.472 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookBookTilePage.lua , size = 7.330 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookBookContainer.lua , size = 12.271 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/CreateLookButton.lua , size = 4.468 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/klossette/clothing/ClothingGrid.lua , size = 14.579 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/SkinToneTile.lua , size = 5.248 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/ShopHomeTile.lua , size = 5.593 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/PoseTile.lua , size = 10.274 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/OutfitTile.lua , size = 9.417 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/GenericTile.lua , size = 11.359 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/CoinProductTile.lua , size = 8.151 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/CatalogTile.lua , size = 6.991 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/BodyShapeTile.lua , size = 4.606 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/ShopTab.lua , size = 5.953 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/ShopDetailModal.lua , size = 10.158 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/ShopBuyButton.lua , size = 5.189 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/ItemDetailView.lua , size = 7.069 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/InventoryTile.lua , size = 8.868 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/InventoryPageTab.lua , size = 4.451 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/InventoryPage2.lua , size = 28.611 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/InventoryPage.lua , size = 8.793 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/ExpandableList.lua , size = 4.406 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/CategoryTab2.lua , size = 4.429 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/CategoryTab.lua , size = 4.661 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/CategoryButton.lua , size = 2.553 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/ModalButton.lua , size = 3.619 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKTextBox.lua , size = 9.774 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKPromptBox.lua , size = 8.121 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKMessageBox.lua , size = 5.092 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKConfirmBox.lua , size = 6.583 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKCheckBox.lua , size = 5.936 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKButton3.lua , size = 7.361 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKButton2.lua , size = 10.567 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/KKButton.lua , size = 4.920 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/GuideFrame.lua , size = 2.744 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/ControlSectionFrame.lua , size = 2.113 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/ControlsBindFrame.lua , size = 2.388 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/color/ColorHueBar.lua , size = 6.214 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/color/ColorArea.lua , size = 6.350 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/CloseButtonCircle.lua , size = 2.769 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/CloseButton.lua , size = 4.328 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/BasicModal.lua , size = 2.571 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/AsyncToast.lua , size = 3.557 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/gallery/saves/SaveInformationLabel.lua , size = 3.611 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/gallery/objects/ObjectButton.lua , size = 4.964 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/gallery/objects/CatButton.lua , size = 3.692 KB
+[16:13:50.471][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/fullscreen/FullscreenTile.lua , size = 6.235 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/ftux/ShapeTile.lua , size = 4.396 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/effects/MouseFollowEffect.lua , size = 3.683 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/effects/BorderHoverEffect.lua , size = 5.301 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/curator/TopCoreButton.lua , size = 3.198 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/curator/KKItemPromptBox.lua , size = 8.249 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/curator/EditableListItem.lua , size = 2.997 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/curator/CuratorListItem.lua , size = 3.340 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/bottombar/RoleProgressionButton.lua , size = 4.452 KB
+[16:13:50.487][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/bottombar/BottomBarButton.lua , size = 8.496 KB
+[16:13:50.581][info] [#0:script\workspace\workspace.lua:315]: Found 566 files.
+[16:13:50.581][info] [#0:script\workspace\workspace.lua:317]: Loaded 566/566 files
+[16:13:50.581][info] [#0:script\workspace\workspace.lua:326]: Preload finish.
+[16:13:51.971][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Quests.lua	1
+[16:13:53.331][warn] [#0:script\core\diagnostics\init.lua:58]: Diagnostics [undefined-doc-name] @ [file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/roles/init.lua] takes [1.298] sec!
+[16:13:53.331][warn] [#0:script\await.lua:176]: [fire]Await step takes [1.298] sec.
+stack traceback:
+	[C]: in function 'coroutine.yield'
+	script\await.lua:162: in function 'await.delay'
+	script\core\diagnostics\init.lua:96: in function 'core.diagnostics'
+	script\provider\diagnostic.lua:179: in function 'provider.diagnostic.diagnostics'
+	script\provider\diagnostic.lua:244: in function 'provider.diagnostic.doDiagnostic'
+	script\provider\diagnostic.lua:378: in function <script\provider\diagnostic.lua:362>
+[16:13:53.331][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/util/Alpha.lua	1
+[16:13:53.503][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/larry/Documents/development/sawhorse/WhiteScarf/src/_loader/Promise.lua
+[16:13:53.565][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/StudioPhotoshoot.lua	1
+[16:13:53.565][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/utilities/GalleryPlaques.lua	1
+[16:13:53.596][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/FirstJoin.lua	1
+[16:13:53.815][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/lookbook/LookBook2.lua	1
+[16:13:53.815][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/studio/network/StudioFTUX.lua	1
+[16:13:53.909][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Unlocks.lua	1
+[16:13:54.018][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/compression/LibDeflate.lua	2
+[16:13:54.049][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/animation/Animator3.lua	2
+[16:13:54.112][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/quests/pages/TimedQuestPage.lua	2
+[16:13:54.143][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/monitors/InputMonitor.lua	2
+[16:13:54.378][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/jobs/studio/GalleryInstance.lua	3
+[16:13:54.503][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/DataRateHelper.lua	1
+[16:13:54.503][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Experience.lua	1
+[16:13:54.628][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/BadgeHelper.lua	6
+[16:13:54.706][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/ControlHelper/init.lua	1
+[16:13:54.721][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/lib/PromiseGet.lua	1
+[16:13:54.737][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/shared/util/ColorMath.lua	1
+[16:13:54.893][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookBookContainer.lua	4
+[16:13:54.909][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/NewsItem.lua	1
+[16:13:54.971][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientInsertHelper.lua	1
+[16:13:55.049][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/ControlSectionFrame.lua	2
+[16:13:55.049][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/first/SawhorseIntro22/Animator3.lua	2
+[16:13:55.049][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/ItemDetailView.lua	1
+[16:13:55.096][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientLookHelper.lua	1
+[16:13:55.096][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MemoryStoreHelper.lua	12
+[16:13:55.128][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/CoinProductTile.lua	1
+[16:13:55.221][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientStudioHelper.lua	3
+[16:13:55.378][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/lookbook/LookTile.lua	1
+[16:13:55.393][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MarketHelper.lua	3
+[16:13:55.409][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/lookbook/subpages/LookBookFollowingPage.lua	1
+[16:13:55.565][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/datastore/OrderedLooks.lua	2
+[16:13:55.784][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/coop2/Coop2.lua	1
+[16:13:55.784][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/color/ColorArea.lua	4
+[16:13:55.799][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/color/ColorHueBar.lua	3
+[16:13:55.799][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/ControlsBindFrame.lua	3
+[16:13:55.815][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/generic/GuideFrame.lua	4
+[16:13:55.878][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio2/Subpages/PosePage.lua	1
+[16:13:56.003][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/prompts/SessionEnded.lua	2
+[16:13:56.034][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Inventory.lua	1
+[16:13:56.518][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/helpers/MessagingHelper.lua	4
+[16:13:56.549][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/utility/ProximityAction.lua	1
+[16:13:56.565][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/ux/FTUXSequence.lua	1
+[16:13:56.596][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/classes/frontend/inventory/tiles/ShopHomeTile.lua	1
+[16:13:56.612][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/classes/Avatar2.lua	1
+[16:13:56.659][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/Data/functions/Economy.lua	1
+[16:13:56.846][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/studio/StudioInviteModal.lua	3
+[16:13:56.846][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/ui/topbar/Topbar.lua	7
+[16:13:56.878][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/server/jobs/datastore/StudioHandler.lua	3
+[16:13:57.174][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/Documents/development/sawhorse/WhiteScarf/src/client/jobs/helpers/ClientMarketHelper.lua	3
+[16:13:57.237][debug][#0:script\provider\diagnostic.lua:386]: 全文诊断耗时：	6.358
+[16:14:07.628][info] [#0:script\provider\provider.lua:169]: Server shutdown.
+[16:14:07.628][info] [#0:script\provider\provider.lua:164]: Server exited.

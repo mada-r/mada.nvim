@@ -8,7 +8,7 @@ local options = {
     autoindent = true;
 
     wrap = false;
-    
+
     ignorecase = true;
     smartcase = true;
 
@@ -20,10 +20,23 @@ local options = {
 
     guifont = {"Berkeley Mono", ":h12"};
     background = "dark";
+
+    cmdheight = 0;
+}
+
+local globals = {
+    neovide_padding_top = 15,
+    neovide_padding_bottom = 15,
+    neovide_padding_left = 15,
+    neovide_padding_right = 15
 }
 
 for key, value in pairs(options) do
     vim.opt[key] = value
+end
+
+for key, value in pairs(globals) do
+    vim.g[key] = value
 end
 
 vim.opt.iskeyword:append("-")

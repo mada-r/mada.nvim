@@ -1,0 +1,1272 @@
+[16:17:45.566][info] [#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:54]: Lua Lsp startup, root: 	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server
+[16:17:45.566][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:55]: ROOT:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server
+[16:17:45.566][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:56]: LOGPATH:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/log
+[16:17:45.566][debug][#0:C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua:57]: METAPATH:	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/meta
+[16:17:45.597][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[16:17:45.597][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[16:17:45.597][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[16:17:45.597][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[16:17:45.597][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.872 MB
+        # 00 : 1.872 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:17:45.613][debug][#0:script\provider\client.lua:73]: Client init	{
+    capabilities = {
+        callHierarchy = {
+            dynamicRegistration = false,
+        },
+        textDocument = {
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [01] = "",
+                            [02] = "Empty",
+                            [03] = "QuickFix",
+                            [04] = "Refactor",
+                            [05] = "RefactorExtract",
+                            [06] = "RefactorInline",
+                            [07] = "RefactorRewrite",
+                            [08] = "Source",
+                            [09] = "SourceOrganizeImports",
+                            [10] = "quickfix",
+                            [11] = "refactor",
+                            [12] = "refactor.extract",
+                            [13] = "refactor.inline",
+                            [14] = "refactor.rewrite",
+                            [15] = "source",
+                            [16] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                dynamicRegistration = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = true,
+                    deprecatedSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    insertReplaceSupport = true,
+                    insertTextModeSupport = {
+                        valueSet = {
+                            [1] = 1,
+                            [2] = 2,
+                        },
+                    },
+                    labelDetailsSupport = true,
+                    preselectSupport = true,
+                    resolveSupport = {
+                        properties = {
+                            [1] = "documentation",
+                            [2] = "detail",
+                            [3] = "additionalTextEdits",
+                        },
+                    },
+                    snippetSupport = true,
+                    tagSupport = {
+                        valueSet = {
+                            [1] = 1,
+                        },
+                    },
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                completionList = {
+                    itemDefaults = {
+                        [1] = "commitCharacters",
+                        [2] = "editRange",
+                        [3] = "insertTextFormat",
+                        [4] = "insertTextMode",
+                        [5] = "data",
+                    },
+                },
+                contextSupport = true,
+                dynamicRegistration = false,
+                insertTextMode = 1,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = false,
+            },
+            documentSymbol = {
+                dynamicRegistration = false,
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = false,
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+            },
+            references = {
+                dynamicRegistration = false,
+            },
+            rename = {
+                dynamicRegistration = false,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                dynamicRegistration = false,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = false,
+                willSave = false,
+                willSaveWaitUntil = false,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = false,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = false,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            symbol = {
+                dynamicRegistration = false,
+                hierarchicalWorkspaceSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                resourceOperations = {
+                    [1] = "rename",
+                    [2] = "create",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Neovim",
+        version = "0.8.2",
+    },
+    initializationOptions = {
+    },
+    processId = 4772,
+    rootPath = "C:\\Users\\larry\\AppData\\Local\\nvim",
+    rootUri = "file:///C:/Users/larry/AppData/Local/nvim",
+    trace = "off",
+    workspaceFolders = {
+        [1] = {
+            name = "C:/Users/larry/AppData/Local/nvim",
+            uri = "file:///C:/Users/larry/AppData/Local/nvim",
+        },
+    },
+}
+[16:17:45.613][info] [#0:script\language.lua:135]: VSC language: nil
+[16:17:45.613][info] [#0:script\language.lua:136]: LS  language: en-us
+[16:17:45.613][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/larry/AppData/Local/nvim
+[16:17:45.613][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/log/file_C_Users_larry_AppData_Local_nvim.log
+[16:17:45.644][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua
+[16:17:45.644][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[16:17:45.988][debug][#0:script\provider\semantic-tokens.lua:111]: Refresh semantic tokens.
+[16:17:45.988][debug][#0:script\proto\proto.lua:131]: Method [initialized] takes [0.347]sec.
+[16:17:45.988][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [0.346]sec.
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:302]: Preload start.
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	1
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	2
+[16:17:45.988][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[16:17:45.988][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [0.346]sec.
+[16:17:45.988][debug][#0:script\config.lua:291]: Config update: 	{
+    color = {
+        mode = "Semantic",
+    },
+    completion = {
+        alwaysShowMethods = false,
+        callParenthesess = false,
+        deprecatedMembers = false,
+        displayContext = 0,
+        enable = true,
+        endAutocompletion = false,
+        keywordSnippet = "Replace",
+        showParams = true,
+        workspaceWord = false,
+    },
+    diagnostics = {
+        disable = {
+        },
+        enable = true,
+        globals = {
+            vim = true,
+        },
+        neededFileStatus = {
+            ["circle-doc-class"] = "Any",
+            ["doc-field-no-class"] = "Any",
+            ["duplicate-doc-class"] = "Any",
+            ["duplicate-doc-field"] = "Any",
+            ["duplicate-doc-param"] = "Any",
+            ["duplicate-index"] = "Any",
+            ["duplicate-set-field"] = "Any",
+            ["empty-block"] = "Opened",
+            ["global-in-nil-env"] = "Any",
+            ["invalid-class-name"] = "Any",
+            ["newfield-call"] = "Any",
+            ["newline-call"] = "Any",
+            ["no-implicit-any"] = "None",
+            ["redefined-local"] = "Opened",
+            ["redefined-type"] = "Any",
+            ["redundant-parameter"] = "Opened",
+            ["redundant-value"] = "Opened",
+            ["trailing-space"] = "Opened",
+            ["unbalanced-assignments"] = "Any",
+            ["undefined-doc-class"] = "Any",
+            ["undefined-doc-module"] = "Opened",
+            ["undefined-doc-name"] = "Any",
+            ["undefined-doc-param"] = "Any",
+            ["undefined-env-child"] = "Any",
+            ["undefined-global"] = "Any",
+            ["undefined-type"] = "Any",
+            ["unknown-diag-code"] = "Any",
+            ["unused-function"] = "Opened",
+            ["unused-local"] = "Opened",
+            ["unused-vararg"] = "Opened",
+            deprecated = "Opened",
+        },
+        severity = {
+            ["circle-doc-class"] = "Warning",
+            ["doc-field-no-class"] = "Warning",
+            ["duplicate-doc-class"] = "Warning",
+            ["duplicate-doc-field"] = "Warning",
+            ["duplicate-doc-param"] = "Warning",
+            ["duplicate-index"] = "Warning",
+            ["duplicate-set-field"] = "Warning",
+            ["empty-block"] = "Hint",
+            ["global-in-nil-env"] = "Warning",
+            ["invalid-class-name"] = "Warning",
+            ["newfield-call"] = "Warning",
+            ["newline-call"] = "Information",
+            ["no-implicit-any"] = "Information",
+            ["redefined-local"] = "Hint",
+            ["redefined-type"] = "Warning",
+            ["redundant-parameter"] = "Hint",
+            ["redundant-value"] = "Hint",
+            ["suggested-import"] = "Information",
+            ["trailing-space"] = "Hint",
+            ["unbalanced-assignments"] = "Hint",
+            ["undefined-doc-class"] = "Warning",
+            ["undefined-doc-module"] = "Warning",
+            ["undefined-doc-name"] = "Warning",
+            ["undefined-doc-param"] = "Warning",
+            ["undefined-env-child"] = "Information",
+            ["undefined-global"] = "Warning",
+            ["undefined-type"] = "Warning",
+            ["unknown-diag-code"] = "Warning",
+            ["unused-function"] = "Hint",
+            ["unused-local"] = "Hint",
+            ["unused-vararg"] = "Hint",
+            deprecated = "Hint",
+        },
+        workspaceDelay = 0,
+        workspaceRate = 100,
+    },
+    hint = {
+        enable = false,
+        paramName = false,
+        paramType = true,
+        returnType = false,
+        setType = false,
+        variableType = true,
+    },
+    hover = {
+        enable = true,
+        enumsLimit = 5,
+        fieldInfer = 3000,
+        previewFields = 100,
+        viewNumber = true,
+        viewString = true,
+        viewStringMax = 1000,
+    },
+    intelliSense = {
+        autoDetectLibraries = true,
+        searchDepth = 0,
+    },
+    misc = {
+        color3Picker = true,
+        goToScriptLink = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+        serverPort = 27843,
+        serviceAutoImport = true,
+    },
+    runtime = {
+        fileEncoding = "utf8",
+        meta = "${version} ${language}",
+        path = {
+            [1] = "?.lua",
+            [2] = "?/init.lua",
+            [3] = "?/?.lua",
+            [4] = "?.luau",
+            [5] = "?/init.luau",
+            [6] = "?/?.luau",
+        },
+        plugin = ".vscode/lua/plugin.lua",
+    },
+    signatureHelp = {
+        documentation = true,
+        enable = true,
+    },
+    suggestedImports = {
+        enable = true,
+        importAlwaysAbsolute = {
+        },
+        importIgnore = {
+        },
+        importPathType = "Both",
+        importScriptChildren = false,
+    },
+    typeChecking = {
+        mode = "Disabled",
+        options = {
+            ["ignore-extra-fields"] = false,
+            ["infer-instance-from-unknown"] = false,
+            ["recursive-get-type"] = false,
+            ["union-bivariance"] = true,
+        },
+        showFullType = false,
+    },
+    window = {
+        progressBar = true,
+        statusBar = true,
+    },
+    workspace = {
+        ignoreDir = {
+            [1] = ".vscode",
+            [2] = "**/_Index/**",
+        },
+        ignoreSubmodules = true,
+        library = {
+        },
+        loadMode = "All Files",
+        loadRequiredFiles = true,
+        maxPreload = 10000,
+        preloadFileSize = 10000,
+        rojoExecutablePath = "",
+        rojoProjectFile = "",
+        useFilesExclude = true,
+        useGitIgnore = true,
+        useRojoSourcemap = true,
+    },
+}	{
+    acceptSuggestionOnEnter = "on",
+    associations = {
+    },
+    exclude = {
+    },
+    semantic = "",
+}
+[16:17:45.988][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [0.347]sec.
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:312]: Scan files at:	C:\Users\larry\AppData\Local\nvim
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/zenmode.lua , size = 0.234 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/treesitter.lua , size = 1.308 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/plugin/packer_compiled.lua , size = 11.505 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/toggleterm.lua , size = 0.230 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/telescope.lua , size = 0.159 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/nvim-tree.lua , size = 1.063 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/lualine.lua , size = 0.753 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/lsp.lua , size = 0.961 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/copilot.lua , size = 0.027 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/cmp.lua , size = 3.303 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugin-setup.lua , size = 3.565 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/plugins/gps.lua , size = 3.353 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua , size = 0.725 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/core/keymaps.lua , size = 1.977 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lua/mada/core/colorscheme.lua , size = 0.210 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/xml.lua , size = 4.870 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/workspace/workspace.lua , size = 16.869 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/workspace/require-path.lua , size = 2.932 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/workspace/init.lua , size = 0.069 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/without-check-nil.lua , size = 2.953 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/vm.lua , size = 3.755 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/init.lua , size = 0.298 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/guideInterface.lua , size = 3.730 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getType.lua , size = 2.458 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getLibrary.lua , size = 0.433 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getMeta.lua , size = 1.421 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getInfer.lua , size = 3.101 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getGlobals.lua , size = 2.658 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getDocs.lua , size = 10.235 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getClass.lua , size = 1.803 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/eachRef.lua , size = 1.411 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/eachField.lua , size = 1.838 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/eachDef.lua , size = 1.416 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/utility.lua , size = 19.340 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/tracy.lua , size = 0.597 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/timer.lua , size = 4.799 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/text-merger.lua , size = 3.492 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/string-merger.lua , size = 4.160 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/service/service.lua , size = 6.677 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/service/net.lua , size = 6.294 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/service/init.lua , size = 0.061 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/service/http/internal.lua , size = 6.138 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/service/http/httpc.lua , size = 2.731 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/pub/report.lua , size = 0.662 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/pub/pub.lua , size = 4.313 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/pub/init.lua , size = 0.068 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/semantic-tokens.lua , size = 3.911 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/markdown.lua , size = 1.760 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/init.lua , size = 0.029 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/provider.lua , size = 33.911 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/diagnostic.lua , size = 12.908 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/completion.lua , size = 1.785 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/client.lua , size = 1.886 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/capability.lua , size = 3.279 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/proto/proto.lua , size = 4.490 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/proto/init.lua , size = 0.055 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/proto/define.lua , size = 7.724 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/progress.lua , size = 4.071 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/plugin.lua , size = 1.708 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/split.lua , size = 0.198 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/parse.lua , size = 1.427 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/relabel.lua , size = 10.266 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/lines.lua , size = 1.016 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/luadoc.lua , size = 38.011 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/init.lua , size = 0.334 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/grammar.lua , size = 18.758 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/calcline.lua , size = 2.087 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/compile.lua , size = 21.310 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/log.lua , size = 3.478 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/locale-loader.lua , size = 0.634 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/ast.lua , size = 67.712 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/library/rojo.lua , size = 17.389 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/library/defaultlibs.lua , size = 9.284 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/library/rbxlibs.lua , size = 38.703 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/library/brickcolors.lua , size = 9.051 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/language.lua , size = 3.776 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/jsonrpc.lua , size = 1.580 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/json.lua , size = 13.486 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/json-beautify.lua , size = 3.298 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/glob/matcher.lua , size = 3.556 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/glob/init.lua , size = 0.089 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/glob/glob.lua , size = 3.567 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/glob/gitignore.lua , size = 6.867 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/fs-utility.lua , size = 14.897 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/file-uri.lua , size = 2.336 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/files.lua , size = 24.280 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/encoder/utf16.lua , size = 4.454 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/encoder/init.lua , size = 3.335 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/encoder/ansi.lua , size = 0.398 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/doctor.lua , size = 10.617 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/workspace-symbol.lua , size = 2.096 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/type-formatting.lua , size = 2.366 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/type-definition.lua , size = 3.304 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/signature.lua , size = 5.432 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/semantic-tokens.lua , size = 8.321 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/rename.lua , size = 18.397 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/reference.lua , size = 3.176 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/module-import.lua , size = 14.700 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/type-checking.lua , size = 50.494 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/look-backward.lua , size = 2.054 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/match-key.lua , size = 0.941 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/keyword.lua , size = 9.346 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/table.lua , size = 7.372 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/return.lua , size = 4.114 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/name.lua , size = 2.647 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/label.lua , size = 7.259 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/init.lua , size = 8.396 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/description.lua , size = 10.840 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/arg.lua , size = 3.698 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hint.lua , size = 6.055 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/highlight.lua , size = 11.545 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/folding.lua , size = 5.333 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/find-source.lua , size = 0.892 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/end-completion.lua , size = 4.343 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/document-symbol.lua , size = 10.605 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/document-link.lua , size = 0.967 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/unused-vararg.lua , size = 0.890 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/guide.lua , size = 174.079 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/unused-local.lua , size = 3.145 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/unused-function.lua , size = 2.361 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/unknown-diag-code.lua , size = 0.926 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-type.lua , size = 2.472 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-global.lua , size = 1.236 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-env-child.lua , size = 0.792 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-doc-param.lua , size = 1.363 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-doc-name.lua , size = 1.908 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-doc-module.lua , size = 1.195 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/unbalanced-assignments.lua , size = 1.169 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/trailing-space.lua , size = 1.575 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-doc-class.lua , size = 1.569 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/suggested-import.lua , size = 1.339 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/redundant-parameter.lua , size = 3.718 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/redundant-value.lua , size = 0.611 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/redefined-type.lua , size = 3.337 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/no-implicit-any.lua , size = 0.961 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/redefined-local.lua , size = 0.945 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/newline-call.lua , size = 1.272 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/newfield-call.lua , size = 1.280 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/invalid-class-name.lua , size = 3.899 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/init.lua , size = 3.005 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/global-in-nil-env.lua , size = 1.832 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/empty-block.lua , size = 1.457 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/duplicate-index.lua , size = 2.515 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/duplicate-doc-param.lua , size = 1.005 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/duplicate-set-field.lua , size = 3.254 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/duplicate-doc-field.lua , size = 0.987 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/duplicate-doc-class.lua , size = 1.547 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/doc-field-no-class.lua , size = 1.009 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/deprecated.lua , size = 1.510 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/circle-doc-class.lua , size = 1.945 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/definition.lua , size = 3.963 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/completion.lua , size = 88.457 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/command/removeSpace.lua , size = 1.475 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/command/solve.lua , size = 2.539 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/command/jsonToLua.lua , size = 1.113 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/color-picker.lua , size = 7.303 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/config.lua , size = 8.835 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/code-action.lua , size = 19.814 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/brave/work.lua , size = 1.710 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/brave/log.lua , size = 1.134 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/brave/init.lua , size = 0.077 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/brave/brave.lua , size = 1.442 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/await.lua , size = 5.563 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/platform.lua , size = 1.689 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua , size = 1.925 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/locale/en-us/script.lua , size = 15.983 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/locale/en-us/library.lua , size = 17.107 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/meta.luau , size = 2.896 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/env.luau , size = 7.642 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/3rd/testez.luau , size = 1.408 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/3rd/rodux.luau , size = 1.007 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/3rd/roactrodux.luau , size = 0.293 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/3rd/roact.luau , size = 3.260 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/debugger.lua , size = 1.768 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/vcruntime140_1.dll , size = 37.240 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/vcruntime140.dll , size = 97.168 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/msvcp140_codecvt_ids.dll , size = 20.368 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/msvcp140_atomic_wait.dll , size = 56.208 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/msvcp140_1.dll , size = 23.952 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/msvcp140_2.dll , size = 185.720 KB
+[16:17:45.988][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/main.lua , size = 2.067 KB
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/concrt140.dll , size = 316.816 KB
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/macOS/main.lua , size = 2.067 KB
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Linux/main.lua , size = 2.067 KB
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/init.lua , size = 0.827 KB
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:251]: Preload file at: file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/msvcp140.dll , size = 565.648 KB
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:315]: Found 186 files.
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:317]: Loaded 186/186 files
+[16:17:46.004][info] [#0:script\workspace\workspace.lua:326]: Preload finish.
+[16:17:48.097][warn] [#0:script\await.lua:167]: Await step takes [0.447] sec.
+[16:17:48.097][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/look-backward.lua	12
+[16:17:48.144][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/type-checking.lua	24
+[16:17:48.144][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/vm.lua	1
+[16:17:48.160][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/fs-utility.lua	1
+[16:17:48.191][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/diagnostic.lua	31
+[16:17:48.207][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/completion.lua	2
+[16:17:48.207][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/3rd/roact.luau	7
+[16:17:48.207][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/xml.lua	2
+[16:17:48.222][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/service/service.lua	2
+[16:17:48.222][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/3rd/rodux.luau	8
+[16:17:48.238][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/await.lua	8
+[16:17:48.269][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getGlobals.lua	8
+[16:17:48.269][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Windows/main.lua	31
+[16:17:48.269][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/progress.lua	9
+[16:17:48.285][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/pub/pub.lua	14
+[16:17:48.285][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/brave/work.lua	3
+[16:17:48.300][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/compile.lua	9
+[16:17:48.300][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/find-source.lua	1
+[16:17:48.300][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/encoder/init.lua	10
+[16:17:48.300][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/debugger.lua	11
+[16:17:48.316][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/duplicate-set-field.lua	36
+[16:17:48.347][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/table.lua	9
+[16:17:48.347][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/client.lua	2
+[16:17:48.363][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/duplicate-doc-param.lua	16
+[16:17:48.363][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/Linux/main.lua	31
+[16:17:48.363][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/text-merger.lua	1
+[16:17:48.394][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/library/rbxlibs.lua	40
+[16:17:48.394][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/init.lua	5
+[16:17:48.425][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/eachRef.lua	2
+[16:17:48.425][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/bin/macOS/main.lua	31
+[16:17:48.425][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/3rd/roactrodux.luau	2
+[16:17:48.441][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/def/env.luau	18
+[16:17:48.457][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/rename.lua	3
+[16:17:48.457][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/main.lua	9
+[16:17:48.457][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/platform.lua	11
+[16:17:48.457][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/definition.lua	26
+[16:17:48.472][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/label.lua	6
+[16:17:48.472][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-doc-module.lua	16
+[16:17:48.472][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/brave/brave.lua	10
+[16:17:48.504][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/config.lua	2
+[16:17:48.519][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/eachDef.lua	2
+[16:17:48.519][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/command/removeSpace.lua	12
+[16:17:48.519][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/type-definition.lua	14
+[16:17:48.613][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/completion.lua	125
+[16:17:48.629][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getClass.lua	8
+[16:17:48.629][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/pub/report.lua	2
+[16:17:48.644][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/doc-field-no-class.lua	12
+[16:17:48.644][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/init.lua	1
+[16:17:48.675][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/workspace/workspace.lua	43
+[16:17:48.691][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/utility.lua	5
+[16:17:48.691][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-doc-class.lua	8
+[16:17:48.691][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/proto/proto.lua	23
+[16:17:48.707][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/plugin.lua	13
+[16:17:48.707][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/semantic-tokens.lua	3
+[16:17:48.722][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/description.lua	12
+[16:17:48.769][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/plugin/packer_compiled.lua	6
+[16:17:48.769][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/vm/getInfer.lua	2
+[16:17:48.769][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/locale-loader.lua	1
+[16:17:48.785][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/without-check-nil.lua	7
+[16:17:48.800][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/luadoc.lua	1
+[16:17:48.800][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/trailing-space.lua	12
+[16:17:48.832][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/parser/ast.lua	7
+[16:17:48.863][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/undefined-doc-param.lua	12
+[16:17:48.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/library/defaultlibs.lua	3
+[16:17:48.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/proto/define.lua	52
+[16:17:48.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/language.lua	6
+[16:17:48.894][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/timer.lua	1
+[16:17:48.894][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/string-merger.lua	19
+[16:17:48.894][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/encoder/utf16.lua	58
+[16:17:48.910][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/reference.lua	26
+[16:17:48.925][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/files.lua	28
+[16:17:48.925][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/hover/arg.lua	11
+[16:17:48.925][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/diagnostics/circle-doc-class.lua	16
+[16:17:48.941][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/log.lua	2
+[16:17:48.988][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/provider/provider.lua	110
+[16:17:48.988][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/document-symbol.lua	8
+[16:17:48.988][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/signature.lua	2
+[16:17:49.097][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/larry/AppData/Local/nvim/lsp/RobloxLsp/server/script/core/guide.lua	165
+[16:17:49.113][debug][#0:script\provider\diagnostic.lua:386]: 全文诊断耗时：	2.479
+[16:17:50.722][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	1.063
+[16:17:51.675][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:17:52.675][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:17:53.691][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:17:54.691][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:17:55.707][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:18:09.769][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:18:16.800][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:18:17.800][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:18:18.894][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:18:19.472][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:18:19.816][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.00099999999999767
+[16:18:45.972][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 120.575 MB
+        # 00 : 114.105 MB
+        # 01 : 1.529 MB
+        # 02 : 1.800 MB
+        # 03 : 1.800 MB
+        # 04 : 1.341 MB
+    --------------- Coroutine ---------------
+        Total:     117
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      117
+    --------------- Cache ---------------
+        Total: 20
+        Dead:  19
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:19:04.160][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:04.332][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:04.629][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:04.754][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:04.816][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.097][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.222][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.316][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.379][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.457][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.535][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.675][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	2
+[16:19:05.722][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:05.863][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	2
+[16:19:07.097][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:19:08.097][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:19:28.207][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:19:28.613][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:29.222][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:19:37.504][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:38.285][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0010000000000048
+[16:19:40.691][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:42.300][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:19:45.972][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 128.838 MB
+        # 00 : 122.368 MB
+        # 01 : 1.529 MB
+        # 02 : 1.800 MB
+        # 03 : 1.800 MB
+        # 04 : 1.341 MB
+    --------------- Coroutine ---------------
+        Total:     292
+        Running:   0
+        Suspended: 1
+        Normal:    0
+        Dead:      291
+    --------------- Cache ---------------
+        Total: 47
+        Dead:  46
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:19:45.988][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	1
+[16:19:46.332][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:19:47.332][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0010000000000048
+[16:19:47.738][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua	2
+[16:19:49.347][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:19:55.816][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/larry/AppData/Local/nvim/lua/mada/core/options.lua
+[16:20:45.816][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 130.928 MB
+        # 00 : 124.458 MB
+        # 01 : 1.529 MB
+        # 02 : 1.800 MB
+        # 03 : 1.800 MB
+        # 04 : 1.341 MB
+    --------------- Coroutine ---------------
+        Total:     326
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      326
+    --------------- Cache ---------------
+        Total: 53
+        Dead:  52
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:21:40.972][warn] [#0:script\pub\report.lua:24]: Load proto error:	Disconnected!

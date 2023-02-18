@@ -24,77 +24,53 @@ end
 
 _G.map = map
 
-map {
-    bind = "<leader>r",
-    cmd = ":so ~/.config/nvim/init.lua<cr>",
-}
 
-map {
-    bind = "<leader>e",
-    cmd = ":vs ~/.config/nvim/init.lua<cr>",
-}
+-- Open Telescope find_files
+map { bind = "<leader>fp", cmd = "<cmd>Telescope find_files<cr>", }
 
-map {
-    bind = "<leader>fp",
-    cmd = "<cmd>Telescope find_files<cr>",
-}
+-- Open Telescope live_grep
+map { bind = "<leader>fs", cmd = "<cmd>Telescope live_grep<cr>", }
 
-map {
-    bind = "<leader>fs",
-    cmd = "<cmd>Telescope live_grep<cr>",
-}
+-- Open Telescope grep_string
+map { bind = "<leader>fc", cmd = "<cmd>Telescope grep_string<cr>", }
 
-map {
-    bind = "<leader>fc",
-    cmd = "<cmd>Telescope grep_string<cr>",
-}
+-- Open Telescope buffers
+map { bind = "<leader>fb", cmd = "<cmd>Telescope buffers<cr>", }
 
-map {
-    bind = "<leader>fb",
-    cmd = "<cmd>Telescope buffers<cr>",
-}
+-- Open Telescope help_tags
+map { bind = "<leader>fh", cmd = "<cmd>Telescope help_tags<cr>", }
 
-map {
-    bind = "<leader>fh",
-    cmd = "<cmd>Telescope help_tags<cr>",
-}
+-- Paste from system clipboard
+map { bind = "<leader>v", cmd = "\"+p", }
 
-map {
-    bind = "<leader>v",
-    cmd = "\"+p",
-}
+-- Yank to system clipboard
+map { bind = "<leader>y", cmd = "\"+y", }
+map { bind = "<leader>y", cmd = "\"+y", mode = "v" }
 
-map {
-    bind = "<leader>y",
-    cmd = "\"+y",
-}
+-- Open File in ZenMode
+map { bind = "<leader>fm", cmd = "<cmd>ZenMode<CR>", }
 
-map {
-    bind = "<leader>fm",
-    cmd = "<cmd>ZenMode<CR>",
-}
+-- Open LazyGit
+map { bind = "<leader>gg", cmd = "<cmd>LazyGit<CR>", }
 
-map {
-    bind = "<leader>wm",
-    cmd = "<cmd>FocusToggle<CR>",
-}
+-- Toggle Nerd Tree
+map { bind = "<leader>n", cmd = "<cmd>NvimTreeToggle<CR>", }
 
-map {
-    bind = "<leader>gg",
-    cmd = "<cmd>LazyGit<CR>",
-}
+-- Focus Nerd Tree
+map { bind = "<leader>N", cmd = "<cmd>NvimTreeFocus<CR>", }
 
-map {
-    bind = "<leader>n",
-    cmd = "<cmd>NvimTreeToggle<CR>",
-}
+-- Shortcut for switching between splits/buffers
+map { bind = "<leader>w", cmd = "<C-w>", }
 
-map {
-    bind = "<leader>N",
-    cmd = "<cmd>NvimTreeFocus<CR>",
-}
+-- Open Diffview
+map { bind = "<leader>dr", cmd = ":DiffviewOpen<cr>" }
 
-map {
-    bind = "<leader>w",
-    cmd = "<C-w>",
-}
+-- Open Diffview History
+map { bind = "<leader>dh", cmd = ":DiffviewFileHistory %<cr>" }
+
+-- Close all Diffview
+map { bind = "<leader>dc", cmd = ":DiffviewClose<cr>" }
+
+
+-- Reset Treesitter Buffer Highlighting
+map { bind = "<leader>thr", cmd = ":TSBufToggle highlight"}

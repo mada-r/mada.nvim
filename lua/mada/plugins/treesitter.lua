@@ -48,3 +48,14 @@ treesitter.setup({
 })
 
 -- Treesitter folding
+local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
+local luau_ts_path = "https://github.com/polychromatist/tree-sitter-luau"
+parser_config.luau = {
+install_info = {
+url = luau_ts_path,
+files = {"src/parser.c", "src/scanner.c"},
+branch = "main",
+generate_requires_npm = false,
+requires_generate_from_grammar = false
+},
+}
